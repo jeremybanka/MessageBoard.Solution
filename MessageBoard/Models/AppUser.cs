@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Identity;
 
 namespace MessageBoard.Models
 {
-  public class User : IdentityUser
+  public class AppUser : IdentityUser
   {
-    public User() : base()
+    public AppUser() : base()
     {
 
     }
